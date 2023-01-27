@@ -131,12 +131,6 @@
             "type": "string",
             "name": "original_id",
             "description": "original_id"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "body",
-            "description": "json body content"
           }
         ],
         "responses": {
