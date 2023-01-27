@@ -68,9 +68,9 @@
         "parameters": [
           {
             "in": "formData",
-            "type": "string",
-            "name": "type",
-            "description": "type"
+            "type": "file",
+            "name": "file",
+            "description": "file"
           },
           {
             "in": "formData",
@@ -81,56 +81,26 @@
           {
             "in": "formData",
             "type": "string",
+            "name": "type",
+            "description": "type"
+          },
+          {
+            "in": "formData",
+            "type": "string",
             "name": "name",
             "description": "name"
           },
           {
             "in": "formData",
-            "type": "file",
-            "name": "file",
-            "description": "file"
+            "type": "string",
+            "name": "roles",
+            "description": "roles"
           },
           {
             "in": "formData",
             "type": "string",
-            "name": "description",
-            "description": "description"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "external_create_date",
-            "description": "external_create_date"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "external_modify_date",
-            "description": "external_modify_date"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "external_source",
-            "description": "external_source"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "external_identity",
-            "description": "external_identity"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "external_identity_type",
-            "description": "external_identity_type"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "original_id",
-            "description": "original_id"
+            "name": "body",
+            "description": "body"
           }
         ],
         "responses": {
