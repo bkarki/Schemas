@@ -52,12 +52,10 @@
   ],
   "consumes": [
     "multipart/form-data",
-    "application/json"
+    "application/x-www-form-urlencoded"
   ],
   "produces": [
-    "application/json",
-    "multipart/form-data",
-    "application/x-www-form-urlencoded"
+    "application/json"
   ],
   "paths": {
     "/v1/nodes": {
@@ -74,32 +72,8 @@
           },
           {
             "in": "formData",
-            "type": "string",
-            "name": "parent_id",
-            "description": "parent_id"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "type",
-            "description": "type"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "name",
-            "description": "name"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "roles",
-            "description": "roles"
-          },
-          {
-            "in": "formData",
-            "type": "string",
             "name": "body",
+            "type": "string",
             "description": "body"
           }
         ],
@@ -138,7 +112,7 @@
     "https"
   ],
   "securityDefinitions": {
-    "otdsticket": {
+    "otcsticket": {
       "name": "API Key",
       "type": "apiKey",
       "in": "header"
@@ -146,7 +120,7 @@
   },
   "security": [
     {
-      "otdsticket": []
+      "otcsticket": []
     }
   ]
 }
