@@ -114,8 +114,8 @@
   },
   "basePath": "/otcs/cs/api/",
   "securityDefinitions": {
-    "OTDSTicket": {
-      "name": "OTDS Ticket",
+    "otdsticket": {
+      "name": "otdsticket",
       "type": "apiKey",
       "in": "header"
     }
