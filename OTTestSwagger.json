@@ -84,12 +84,6 @@
             "type": "file",
             "name": "file",
             "description": "file"
-          },
-          {
-            "in": "formData",
-            "type": "string",
-            "name": "body",
-            "description": "body"
           }
         ]
       }
