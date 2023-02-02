@@ -17,19 +17,20 @@
   "schemes": [
     "https"
   ],
-  "produces": [
-    "application/json",
-    "application/x-www-form-urlencoded"
-  ],
-  "consumes": [
-    "application/x-www-form-urlencoded",
-    "multipart/form-data"
-  ],
+  
   "paths": {
     "/v1/nodes": {
       "post": {
         "summary": "Create New File",
         "operationId": "post-File",
+        "produces": [
+    "application/json"
+    
+  ],
+  "consumes": [
+    
+    "multipart/form-data"
+  ],
         "responses": {
           "200": {
             "description": "File Created",
@@ -52,7 +53,7 @@
             }
           },
           "500": {
-            "description": "Email Already Taken",
+            "description": "Internal Server Error",
             "schema": {
               "type": "string",
               "x-nullable": true
